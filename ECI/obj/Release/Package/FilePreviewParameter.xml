@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ShoppingCartECI" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^\\\\mac\\home\\documents\\visual\ studio\ 2015\\Projects\\ECI\\ECI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^\\\\mac\\home\\documents\\visual\ studio\ 2015\\Projects\\ECI\\ECI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="tcp:pharmaserver.database.windows.net,1433;Initial Catalog=ShoppingCartDatabase;Persist Security Info=False;User ID={wahidrph@icloud.com};Password={whh8319246};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30" tags="">
+    <parameterEntry kind="XmlFile" scope="\\\\mac\\home\\documents\\visual\ studio\ 2015\\Projects\\ECI\\ECI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ECI.Models.ApplicationDbContext-Web.config Connection String" description="" value="Data Source=tcp:pharmaserver.database.windows.net,1433;Initial Catalog=ShoppingCartDatabase;User Id=null@pharmaserver.database.windows.net;Password=Whh&amp;8319&amp;246" tags="">
+    <parameterEntry kind="XmlFile" scope="\\\\mac\\home\\documents\\visual\ studio\ 2015\\Projects\\ECI\\ECI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ECI.Models.ApplicationDbContext']/@connectionString" />
+  </parameter>
+</parameters>

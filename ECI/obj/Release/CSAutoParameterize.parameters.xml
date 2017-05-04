@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="tcp:pharmaserver.database.windows.net,1433;Initial Catalog=ShoppingCartDatabase;Persist Security Info=False;User ID={wahidrph@icloud.com};Password={whh8319246};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="\\\\mac\\home\\documents\\visual\ studio\ 2015\\Projects\\ECI\\ECI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ECI.Models.ApplicationDbContext-Web.config Connection String" description="ECI.Models.ApplicationDbContext Connection String used in web.config by the application to access the database." defaultValue="ECI.Models.ApplicationDbContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="\\\\mac\\home\\documents\\visual\ studio\ 2015\\Projects\\ECI\\ECI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ECI.Models.ApplicationDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="ECI.Models.ApplicationDbContext_DatabasePublish-Web.config Connection String" description="ECI.Models.ApplicationDbContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="ECI.Models.ApplicationDbContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="\\\\mac\\home\\documents\\visual\ studio\ 2015\\Projects\\ECI\\ECI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ECI.Models.ApplicationDbContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>
